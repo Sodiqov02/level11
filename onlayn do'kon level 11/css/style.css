@@ -1,0 +1,53 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.add-to-cart-btn {
+    transition: background-color 0.3s ease;
+}
+
+/* Sidebar uchun maxsus scrollbar (ixtiyoriy) */
+#sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+#sidebar::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    /* slate-300 */
+    border-radius: 3px;
+}
+
+#sidebar::-webkit-scrollbar-track {
+    background-color: #f1f5f9;
+    /* slate-100 */
+}
+
+.active-category-style {
+    background-color: #e0e7ff;
+    /* indigo-100 */
+    color: #4338ca;
+    /* indigo-700 */
+    font-weight: 600;
+    /* semibold */
+}
+
+.category-link-default-style {
+    color: #374151;
+    /* gray-700 */
+}
+
+.category-link-default-style:hover {
+    background-color: #f1f5f9;
+    /* slate-100 */
+    color: #4f46e5;
+    /* indigo-600 */
+}
